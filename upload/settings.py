@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'upload.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sid',
         'USER': 'postgres',
         'PASSWORD': 'sid',
         'HOST': 'localhost',
